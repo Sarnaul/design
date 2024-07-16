@@ -1,4 +1,5 @@
-# Техники тест-дизайна
-[Эквивалентное разбиение и анализ граничных значений](https://docs.google.com/spreadsheets/d/1bJiRt8hCkb-dp4HCMCUtOymPx7VeL65hvB2mnZWT7yo)   
-[Попарное тестирование. Тестирование фильтрации и сортировки](https://docs.google.com/spreadsheets/d/1hKIeHIyi94iDRleU1rMko1gjcUIOQIix6GHd_cykKPM)   
-[Тестирование модуля оплаты Paypal. Таблица принятия решений](https://docs.google.com/spreadsheets/d/1NjuBiFDStveVeMz2Y9u4PPTvCD9jggpl7drqwUCoHrs)   
+# Техники тест-дизайна   
+В продолжении работы с веб-приложением "Интернет-магазин" необходимо было:   
+- определить [классы эквивалентности и граничные значения](https://docs.google.com/spreadsheets/d/1bJiRt8hCkb-dp4HCMCUtOymPx7VeL65hvB2mnZWT7yo) для формы регистрации, состоящий из двух полей ввода "Логин" и "Пароль". Согласно требованиям "Логин" мог содержать от 3 (вкл.) до 15 символов (вкл.) и состоять из латиницы, цифр и/или нижнего подчеркивания, а "Пароль" мог содеражть от 8 символов (вкл.) и состоять из латиницы и цифр;
+- провести [попарное тестирование](https://docs.google.com/spreadsheets/d/1hKIeHIyi94iDRleU1rMko1gjcUIOQIix6GHd_cykKPM) элементов фильтрации и сортировки в каталоге товаров с помощью Pairwise'
+- составить [таблицу принятия решений](https://docs.google.com/spreadsheets/d/1NjuBiFDStveVeMz2Y9u4PPTvCD9jggpl7drqwUCoHrs) для модуля оплаты через PayPal. Согласно требованиям оплата была успешной только при положительном балансе и действующей карте.
